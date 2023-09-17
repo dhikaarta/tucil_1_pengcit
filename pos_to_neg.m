@@ -1,5 +1,5 @@
 function flippedImage = pos_to_neg(image)
-    % Check apakah image grayscale atau RGB
+    % Check if image grayscale or RGB
     if size(image, 3) == 1
         % Grayscale image
         flippedImage = 255-image;

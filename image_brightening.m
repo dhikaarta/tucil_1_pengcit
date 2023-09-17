@@ -1,5 +1,5 @@
 function brightenedImage = image_brightening(image, a, b)
-    % Check apakah image grayscale atau RGB
+    % Check if image grayscale or RGB
     if size(image, 3) == 1
         % Grayscale image
         brightenedImage = a * double(image) + b;
