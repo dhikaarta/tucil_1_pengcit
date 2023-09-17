@@ -10,5 +10,6 @@ function flippedImage = pos_to_neg(image)
             flippedImage(:,:,channel) = 255 - flippedImage(:,:,channel);
         end
     end
+    flippedImage = uint8(flippedImage);
 end
-    
+     
