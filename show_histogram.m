@@ -1,4 +1,4 @@
-function show_histogram (image)
+function [titleText, pixelCount] = show_histogram (image)
     %switch based on size of image channels
     switch size(image,3)
         case 1
@@ -27,21 +27,5 @@ function show_histogram (image)
             end
             titleText = 'Histogram for Color Image';
     end
-    figure;
-    if size(image, 3) == 1
-        bar(pixelCount);
-        xlabel('Gray Level');
-        ylabel('Frequency');
-    else
-        bar(pixelCount(:, 1), 'r');
-        hold on;
-        bar(pixelCount(:, 2), 'g');
-        bar(pixelCount(:, 3), 'b');
-        xlabel('Gray Level');
-        ylabel('Frequency');
-        legend('Red', 'Green', 'Blue');
-    end
-    title(titleText);
-    
 end
 
