@@ -1,6 +1,6 @@
 # tucil_1_pengcit
 
-## Deskripsi Awal
+## TL:DR buat no 3 dan 4
 
 Seluruh kode & design GUI ada di main_gui.mlapp .
 
