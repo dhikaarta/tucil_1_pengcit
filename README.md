@@ -10,17 +10,18 @@ Program ini adalah sebuah program yang dapat melakukan beberapa fitur image proc
 - Histogram Equalization
 - Histogram Specification
 
+Untuk memulai, sudah disediakan beberapa citra yang dapat digunakan untuk tes fitur. Citra - citra tersebut terletak pada folder `images`
 ## Dependencies
 - Newest Matlab 
 
 ## Installation
 
-Aplikasi ini dapat diinstalasi melalui fitur instalasi aplikasi dari MATLAB , pastikan sudah memiliki MATLAB dan dapat buka (double click) Image_Processing.mlappinstall, jika tidak memiliki MATLAB dapat menggunakan file .exe yang disediakan dalam folder Installer.
+Aplikasi ini dapat diinstalasi melalui fitur instalasi aplikasi dari MATLAB , pastikan sudah memiliki MATLAB dan dapat buka (double click) `Image_Processing.mlappinstall`. Jika tidak memiliki MATLAB dapat menggunakan file `App Installer` yang disediakan dalam folder Installer. Installer ini akan melakukan instalasi runtime MATLAB yang sizenya lumayan besar.
 
 Apabila melalui git clone :
 1. Git clone repo ini
-2. Buka repo pada aplikasi MATLAB, masuk ke folder main
-3. Run main_gui.mlapp yang ada dalam folder main
+2. Buka repo pada aplikasi MATLAB, masuk ke folder `main`
+3. Run `main_gui.mlapp` yang ada dalam folder `main`
 4. Gunakan aplikasi
 
 ## Usage
