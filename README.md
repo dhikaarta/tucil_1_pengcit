@@ -1,9 +1,30 @@
-# tucil_1_pengcit
+# Image Processing App
 
-## TL:DR buat no 3 dan 4
+Program ini adalah sebuah program yang dapat melakukan beberapa fitur image processing, diantaranya : 
+- Show Histogram
+- Image Brightening
+- Negative to Positive Image (& Reverse)
+- Log Transformation
+- Power Transformation
+- Contrast Stretching
+- Histogram Equalization
+- Histogram Specification
 
-Seluruh kode & design GUI ada di main_gui.mlapp .
+## Dependencies
+- Newest Matlab 
 
-- Buat histogram eq dan histogram spec (no 3 dan 4) bikin fungsinya aja yang nanti return image hasilnya.
-- buat histogram equalization, tinggal nambah fungsinya buat di function GOButtonPushed, dan show imagenya ikutin contoh contoh lain yang udah ada
-- buat histogram spec, perlu ada beberapa GUI yang diubah beberapanya : nerima picture ke 2 (histogram specificationnya) dan taro di global variable (properties). Lalu sisanya sama aja tambahin di GOButtonPushed.
+## Installation
+
+Aplikasi ini dapat diinstalasi melalui fitur instalasi aplikasi dari MATLAB , pastikan sudah memiliki MATLAB dan dapat buka (double click) Image_Processing.mlappinstall, jika tidak memiliki MATLAB dapat menggunakan file .exe yang disediakan dalam folder Installer.
+
+Apabila melalui git clone :
+1. Git clone repo ini
+2. Buka repo pada aplikasi MATLAB, masuk ke folder main
+3. Run main_gui.mlapp yang ada dalam folder main
+4. Gunakan aplikasi
+
+## Usage
+- Gunakan drop down untuk memilih fitur yang ingin digunakan
+- Masukan input - input yang dibutuhkan (beberapa fitur membutuhkan input lebih lanjut, seperti variabel a dan b untuk Image Brightening)
+- Tekan tombol Go untuk memulai proses
+- Tekan tombol download pada panel tengah apabila ingin melakukan download hasil
