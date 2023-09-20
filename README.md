@@ -12,7 +12,7 @@ Program ini adalah sebuah program yang dapat melakukan beberapa fitur image proc
 
 Untuk memulai, sudah disediakan beberapa citra yang dapat digunakan untuk tes fitur. Citra - citra tersebut terletak pada folder `images`
 ## Dependencies
-- Newest Matlab 
+- Matlab R2023b
 
 ## Installation
 
