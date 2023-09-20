@@ -35,7 +35,7 @@ function specifiedImage = histogram_spec(image, reference)
     for i = 1:height
         for j = 1:width
             for k = 1:channelCount
-                specifiedImage(i,j,k) = lut(image(i,j,k), k);
+                specifiedImage(i,j,k) = lut(image(i,j,k) + 1, k);
             end
         end
     end
